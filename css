@@ -1,0 +1,75 @@
+/* Custom Card Design */
+.custom-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+.custom-header {
+    background: linear-gradient(45deg, #007BFF, #6A11CB);
+    border-radius: 10px 10px 0 0;
+}
+
+/* Custom Input, Button and Label Styling */
+.custom-label {
+    font-weight: bold;
+    color: #6c757d;
+}
+
+.custom-input {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s;
+}
+
+.custom-input:focus {
+    border-color: #007BFF;
+}
+
+.custom-btn {
+    background: linear-gradient(45deg, #007BFF, #6A11CB);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.custom-btn:hover {
+    background: linear-gradient(45deg, #6A11CB, #007BFF);
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.5);
+}
+
+/* Checkbox Styling */
+.custom-check {
+    width: 20px;
+    height: 20px;
+}
+
+/* Password Display Styling */
+.custom-password-display {
+    background-color: #f9f9f9;
+    font-weight: bold;
+    word-wrap: break-word;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Footer Button */
+.custom-footer-btn {
+    margin-top: 15px;
+}
+
+/* Hover Effects */
+.custom-password-display {
+    cursor: pointer;
+}
+
